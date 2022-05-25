@@ -1,0 +1,44 @@
+2022-05-25 22:59:16,388:INFO:Initializing load_model()
+2022-05-25 22:59:16,389:INFO:load_model(model_name=Model_12, platform=None, authentication=None, verbose=True)
+2022-05-25 23:00:20,995:INFO:Initializing load_model()
+2022-05-25 23:00:20,995:INFO:load_model(model_name=Model_12, platform=None, authentication=None, verbose=True)
+2022-05-25 23:00:27,997:INFO:Initializing load_model()
+2022-05-25 23:00:27,998:INFO:load_model(model_name=Model_12, platform=None, authentication=None, verbose=True)
+2022-05-25 23:00:28,075:INFO:Initializing predict_model()
+2022-05-25 23:00:28,075:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      numerical_features=['Возраст', 'ССЗ',
+                                                          'СРБ',
+                                                          'Процент поражения '
+                                                          'легочной ткани',
+                                                          'Тромбоциты',
+                                                          'Пульсоксиметрия',
+                                                          'ЧДД', 'ЧСС',
+                                                          'Креатинин',
+                                                          'Мочевина',
+                                                          'Общий белок'],
+                                      target='Исход заболевания')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_val...
+                                                      classifier=LGBMClassifier(random_state=5229),
+                                                      colsample_bytree=1.0,
+                                                      importance_type='split',
+                                                      learning_rate=0.1,
+                                                      max_depth=-1,
+                                                      min_child_samples=20,
+                                                      min_child_weight=0.001,
+                                                      min_split_gain=0.0,
+                                                      n_estimators=100,
+                                                      n_jobs=-1, num_leaves=31,
+                                                      objective=None,
+                                                      random_state=5229,
+                                                      reg_alpha=0.0,
+                                                      reg_lambda=0.0,
+                                                      silent='warn',
+                                                      subsample=1.0,
+                                                      subsample_for_bin=200000,
+                                                      subsample_freq=0)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-05-25 23:00:28,077:INFO:Checking exceptions
+2022-05-25 23:00:28,077:INFO:Preloading libraries
