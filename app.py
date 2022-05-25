@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-model = load_model('Model_12')
+model = load_model('model_12')
 
 def predict(model, input_df):
     predictions_df = predict_model(estimator=model, data=input_df)
